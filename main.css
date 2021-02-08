@@ -7,33 +7,33 @@ h1{
 	display: grid;
 	border: 2px solid blue;
 	grid-template-columns: 100% ;
-	grid-template-rows: 80px 400px ;
+	grid-template-rows: 60px 400px ;
 	grid-template-areas:
 	"hd hd hd hd hd hd"
 	"blg blg blg blg blg blg"
-	"ft ft ft ft ft ft"
+	"ft ft ft ft ft ft";
 
 }
 .blog_posts_container{
+	display: grid;
 	border: solid 2px green;
-	order: 2;
-	width: 100%;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 150px 150px;
+	justify-content: center;
+
 }
 .blog{
 	border: solid 2px yellow;
-	grid-area: blg
-	height: 80%;;
+	height: 100px;
+	width: 150px;
 }
 .topbar{
 	border: 2px solid red;
-	order: 1;
-	height: 20%;
+	height: 40px;
 	grid-area: hd;
 }
 .footer{
 	border: 2px solid black;
 	grid-area: ft;
-	order: 3;
-	height: 10%;
-
+	height: 20px;
 }
