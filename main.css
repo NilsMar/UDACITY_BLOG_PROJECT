@@ -1,0 +1,39 @@
+h1{
+	color:red;
+	text-decoration: underline;
+	text-align: center;
+}
+.blog_container{
+	display: grid;
+	border: 2px solid blue;
+	grid-template-columns: 100% ;
+	grid-template-rows: 80px 400px ;
+	grid-template-areas:
+	"hd hd hd hd hd hd"
+	"blg blg blg blg blg blg"
+	"ft ft ft ft ft ft"
+
+}
+.blog_posts_container{
+	border: solid 2px green;
+	order: 2;
+	width: 100%;
+}
+.blog{
+	border: solid 2px yellow;
+	grid-area: blg
+	height: 80%;;
+}
+.topbar{
+	border: 2px solid red;
+	order: 1;
+	height: 20%;
+	grid-area: hd;
+}
+.footer{
+	border: 2px solid black;
+	grid-area: ft;
+	order: 3;
+	height: 10%;
+
+}
