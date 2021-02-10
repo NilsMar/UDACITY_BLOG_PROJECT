@@ -10,7 +10,7 @@ h1{
 	display: grid;
 	border: 2px solid blue;
 	grid-template-columns: 100% ;
-	grid-template-rows: 60px 700px ;
+	grid-template-rows: 90px 750px ;
 	grid-template-areas:
 	"hd hd hd hd hd hd"
 	"blg blg blg blg blg blg"
@@ -24,24 +24,22 @@ h1{
 	grid-template-rows: 210px 210px;
 	justify-content: center;
 	grid-gap: 15px;
-	padding-top: 10px;
+	padding-top: 20px;
 
 }
 .blog{
 	display: flex;
 	flex-direction: column;
-	columns: 100%;
 	align-items: flex-start;
 	border: solid 5px #dee2e3;
 	height: 200px;
 	width: 350px;
-	top-padding: 	10px;
 	font-family: helvetica;
 
 }
 .topbar{
 	border: 2px solid red;
-	height: 40px;
+	height: 80px;
 	grid-area: hd;
 }
 .footer{
@@ -56,8 +54,25 @@ h1{
 	margin-bottom: 	20px;
 }
 .date {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: lighter;
 	font-style: italic;
 	color: #9CA8AB;
+	margin-bottom: 	20px;
+}
+.title{
+	color: #1B2021;
+	font-size: 15px;
+	font-weight: bold;
+}
+.topbar{
+	display: grid;
+	grid-template-columns: 1158px 80px;
+
+}
+.subscribe{
+	color: #bcb8b1;
+	font-weight:bold;
+	font-family: helvetica;
+	text-decoration: underline;
 }
