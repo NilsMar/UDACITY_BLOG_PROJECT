@@ -44,9 +44,13 @@ h1{
 	grid-area: hd;
 }
 .footer{
+	display: grid;
+	grid-template-columns: 1050px 180px;
 	border: 2px solid black;
 	grid-area: ft;
+	font-family: calibri;
 	height: 20px;
+	font-size: 9px
 }
 .category{
 	font-size: 25px;
