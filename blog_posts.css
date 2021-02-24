@@ -1,21 +1,28 @@
 .blog_grid{
 	display: grid;
 	border: solid;
-	grid-template-rows: 50px 800px;
+	grid-template-rows: 90px 800px;
 	grid-template-columns: 300px 300px;
 	grid-template-areas:
 	"hd hd hd hd"
-	"mt cn cn cn"
+	"mt cn cn cn";
 	;
 }
-
+.navigation{
+	display: grid;
+	grid-area: hd;
+	grid-template-columns: 100px 300px;
+	border: solid 5px green;
+	font-weight: bold;
+	}
 
 .post_header{
 	text-align: center;
 	font-size: 40px;
 	font-family: helvetica;
 	border: solid red;
-	grid-area: hd
+	grid-area: hd;
+	padding-top:35px;
 }
 .meta_data{
 	border: solid green;
@@ -28,4 +35,11 @@
 	border: solid yellow;
 	grid-area: cn;
 	text-align: center;
+	word-wrap:
+}
+a{
+	text-decoration-line: none;
+}
+a:visited{
+	color: black;
 }
