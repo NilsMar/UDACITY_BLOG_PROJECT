@@ -1,14 +1,19 @@
 h1{
-	color:#902923;
+	color:white;
 	text-decoration: underline;
 	text-align: center;
 	font-weight: bold;
 	font-family: georgia;
+	margin: 0;
+}
+.html{
+background-color: linear-gradient(to right,#a8dadc,#f1faee)
+
+}
 
 }
 .blog_container{
 	display: grid;
-	border: 2px solid blue;
 	grid-template-columns: 100% ;
 	grid-template-rows: 90px 750px ;
 	grid-template-areas:
@@ -19,11 +24,9 @@ h1{
 }
 .blog_posts_container{
 	display: grid;
-	border: solid 2px green;
 	grid-template-columns: 450px 350px;
 	grid-template-rows: 210px 210px;
 	justify-content: center;
-	background-image: linear-gradient(to right,#a8dadc,#f1faee);
 	grid-gap: 15px;
 	padding-top: 20px;
 
@@ -39,14 +42,12 @@ h1{
 
 }
 .topbar{
-	border: 2px solid red;
 	height: 80px;
 	grid-area: hd;
 }
 .footer{
 	display: grid;
 	grid-template-columns: 1050px 180px;
-	border: 2px solid black;
 	grid-area: ft;
 	font-family: calibri;
 	height: 20px;
