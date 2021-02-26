@@ -6,30 +6,33 @@ h1{
 	font-family: georgia;
 	padding: 20px;
 }
-html{
+body{
 	background-color: hsl(0, 0%, 97%);
 }
-
 .blog_container{
 	display: grid;
 	grid-template-columns: 100% ;
-	grid-template-rows: 90px  ;
+	grid-template-rows: 90px ;
 	grid-template-areas:
 	"hd"
 	"blg"
-	"ft";}
-}
+	"ft";
+	}
 
-@media(min-width: 900px)
-{
-.blog_container{
+
+.blog_posts_container{
 	display: grid;
-	grid-template-columns: 100% ;
-	grid-template-rows: 90px 750px ;
-	grid-template-areas:
-	"hd hd hd hd hd hd"
-	"blg blg blg blg blg blg"
-	"ft ft ft ft ft ft";}
+	grid-template-columns: 100%x;
+	grid-template-rows: 210px 210px;
+	justify-content: center;
+	grid-gap: 15px;
+	padding-top: 20px;
+
+}
+@media(min-width: 884px)
+{
+body{
+	background-color: red;
 }
 
 .blog_posts_container{
@@ -40,7 +43,24 @@ html{
 	grid-gap: 15px;
 	padding-top: 20px;
 
+/*
+.blog_container{
+	display: grid;
+	grid-template-columns: 100% ;
+	grid-template-rows: 90px 750px ;
+	grid-template-areas:
+	"hd hd hd hd hd hd"
+	"blg blg blg blg blg blg"
+	"ft ft ft ft ft ft";
+	}
+*/
+
 }
+
+}
+
+
+
 .blog{
 	display: flex;
 	flex-direction: column;
@@ -57,7 +77,7 @@ html{
 }
 .footer{
 	display: grid;
-	grid-template-columns: 1050px 180px;
+	grid-template-columns: 80% 20%;
 	grid-area: ft;
 	font-family: calibri;
 	height: 20px;
@@ -82,7 +102,7 @@ html{
 }
 .topbar{
 	display: grid;
-	grid-template-columns: 1158px 80px;
+	grid-template-columns: 80% 20%;
 
 }
 .subscribe{
