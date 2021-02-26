@@ -4,7 +4,6 @@ body{
 
 .blog_grid{
 	display: grid;
-	border:  solid red 2px;
 	grid-template-rows: 90px 100%;
 	grid-template-columns: 300px 300px;
 	grid-template-areas:
@@ -16,7 +15,7 @@ body{
 	display: grid;
 	grid-area: hd;
 	grid-template-columns: 100px 300px;
-	border: solid 5px green;
+	border-bottom: solid 1px #00afb9;
 	font-weight: bold;
 	}
 
@@ -24,12 +23,10 @@ body{
 	text-align: center;
 	font-size: 40px;
 	font-family: helvetica;
-	border: solid red;
 	grid-area: hd;
 	padding-top:35px;
 }
 .meta_data{
-	border: solid green;
 	grid-area: mt;
 	line-height: 30px;
 	text-align: right;
@@ -38,13 +35,21 @@ body{
 
 }
 .content {
-	border: solid yellow;
+	grid-area: cn;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+@media(min-width: 884px)
+{
+  .content {
 	grid-area: cn;
 	text-align: left;
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-top: 30px;
-
+	}
 }
 a{
 	text-decoration-line: none;
