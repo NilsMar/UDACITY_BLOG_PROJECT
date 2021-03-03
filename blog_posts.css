@@ -1,6 +1,13 @@
 body{
 	background-color: hsl(0, 0%, 97%);
 }
+h5{
+	font-style: italic;
+	color: grey;
+	font-family: helevatic;
+	margin-bottom:20px;
+	margin-top: 0px;
+}
 
 .blog_grid{
 	display: grid;
