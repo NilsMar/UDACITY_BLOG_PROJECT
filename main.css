@@ -67,8 +67,9 @@ body{
 	grid-template-columns: 80% 20%;
 	grid-area: ft;
 	font-family: calibri;
-	height: 20px;
-	font-size: 9px
+	height: 30px;
+	font-size: 9px;
+	padding-top: 20px;
 }
 .category{
 	font-size: 25px;
