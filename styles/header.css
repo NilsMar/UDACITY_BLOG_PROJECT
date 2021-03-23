@@ -2,6 +2,16 @@
 	display: grid;
 	grid-area: hd;
 	grid-template-columns: 100px 300px;
-	border-bottom: solid 1px #00afb9;
 	font-weight: bold;
 	}
+.header_title{
+	text-align: center;
+	font-size: 40px;
+	font-family: helvetica;
+	grid-area: hd;
+	padding-top:35px;
+	color:#353535;
+	font-weight: bold;
+	border-bottom: solid 1px #00afb9;
+
+}

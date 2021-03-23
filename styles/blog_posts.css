@@ -12,13 +12,6 @@ body{
 
 }
 
-.post_header{
-	text-align: center;
-	font-size: 40px;
-	font-family: helvetica;
-	grid-area: hd;
-	padding-top:35px;
-}
 .meta_data{
 	grid-area: mt;
 	line-height: 30px;

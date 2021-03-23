@@ -1,5 +1,18 @@
 .footer{
-	display: grid;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	font-family: calibri;
+	height: 30px;
+	font-size: 9px;
+	padding-top: 30px;
+}
+.credit{
+	padding-left: 10px;
+}
+/*
+.footer{
+	display: flex;
 	grid-template-columns: 80% 20%;
 	grid-area: ft;
 	font-family: calibri;
@@ -7,3 +20,4 @@
 	font-size: 9px;
 	padding-top: 20px;
 }
+*/

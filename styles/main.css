@@ -1,11 +1,3 @@
-h1{
-	color:#353535;
-	text-decoration: underline;
-	text-align: center;
-	font-weight: bold;
-	font-family: georgia;
-	padding: 20px;
-}
 body{
 	background-color: hsl(0, 0%, 97%);
 }
@@ -20,13 +12,12 @@ a:visited{
 	color: black;
 }
 a{
-	color: blue !important;
 	font-weight: bold;
 }
 .blog_container{
 	display: grid;
 	grid-template-columns: 100% ;
-	grid-template-rows: 90px ;
+	grid-template-rows: 150px;
 	grid-template-areas:
 	"hd"
 	"blg"
@@ -87,7 +78,8 @@ a{
 }
 .topbar{
 	display: grid;
-	grid-template-columns: 80% 20%;
+	grid-template-columns: 90% 20%;
+	padding-top: 70px;
 
 }
 .subscribe{

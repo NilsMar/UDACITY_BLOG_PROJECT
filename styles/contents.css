@@ -1,14 +1,19 @@
+body{
+	background-color: hsl(0, 0%, 97%);
+}
+
+a{
+	text-decoration-line: underline;
+	color: black;
+	font-weight: bold;
+}
+a:visited{
+	color: black;
+}
 figcaption{
 	font-style: bold;
 	color: grey;
 	font-family: helevatic;
 	margin-bottom:20px;
 	margin-top: 0px;
-}
-a:visited{
-	color: black;
-}
-a{
-	color: blue !important;
-	font-weight: bold;
 }
