@@ -1,0 +1,14 @@
+figcaption{
+	font-style: bold;
+	color: grey;
+	font-family: helevatic;
+	margin-bottom:20px;
+	margin-top: 0px;
+}
+a:visited{
+	color: black;
+}
+a{
+	color: blue !important;
+	font-weight: bold;
+}

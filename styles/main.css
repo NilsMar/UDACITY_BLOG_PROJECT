@@ -9,6 +9,20 @@ h1{
 body{
 	background-color: hsl(0, 0%, 97%);
 }
+figcaption{
+	font-style: bold;
+	color: grey;
+	font-family: helevatic;
+	margin-bottom:20px;
+	margin-top: 0px;
+}
+a:visited{
+	color: black;
+}
+a{
+	color: blue !important;
+	font-weight: bold;
+}
 .blog_container{
 	display: grid;
 	grid-template-columns: 100% ;
@@ -22,7 +36,7 @@ body{
 
 .blog_posts_container{
 	display: grid;
-	grid-template-columns: 100%x;
+	grid-template-columns: 100%;
 	grid-template-rows: 210px 210px;
 	justify-content: center;
 	grid-gap: 15px;
@@ -41,12 +55,7 @@ body{
 	grid-gap: 15px;
 	padding-top: 20px;
 
-
 }
-
-}
-
-
 
 .blog{
 	display: flex;
@@ -58,19 +67,7 @@ body{
 	font-family: helvetica;
 
 }
-.topbar{
-	height: 80px;
-	grid-area: hd;
-}
-.footer{
-	display: grid;
-	grid-template-columns: 80% 20%;
-	grid-area: ft;
-	font-family: calibri;
-	height: 30px;
-	font-size: 9px;
-	padding-top: 20px;
-}
+
 .category{
 	font-size: 25px;
 	font-weight: bold;
@@ -107,11 +104,4 @@ body{
 }
 #chess{
 	color: #0f4c5c;
-}
-a:visited{
-	color: black;
-}
-a{
-	color: blue !important;
-	font-weight: bold;
 }

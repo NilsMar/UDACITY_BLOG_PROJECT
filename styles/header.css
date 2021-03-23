@@ -1,0 +1,7 @@
+.navigation{
+	display: grid;
+	grid-area: hd;
+	grid-template-columns: 100px 300px;
+	border-bottom: solid 1px #00afb9;
+	font-weight: bold;
+	}

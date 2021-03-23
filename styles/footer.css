@@ -1,0 +1,9 @@
+.footer{
+	display: grid;
+	grid-template-columns: 80% 20%;
+	grid-area: ft;
+	font-family: calibri;
+	height: 30px;
+	font-size: 9px;
+	padding-top: 20px;
+}
