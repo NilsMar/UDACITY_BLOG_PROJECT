@@ -1,5 +1,5 @@
 
-.blog_grid{
+.blog_grid_post{
 	display: grid;
 	grid-template-rows: 90px 100%;
 	grid-template-columns: 300px 300px;

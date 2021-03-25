@@ -1,3 +1,6 @@
+@import "footer.css";
+@import "header.css";
+@import "contents.css";
 
 .blog{
 	display: flex;
